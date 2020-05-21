@@ -1,0 +1,165 @@
+<html>
+	<head>
+		<title>Don Bosco Techincal College | Campus Grounds</title>
+		<link href="assets/css/jquery.ui.css" type="text/css" rel="stylesheet">
+		<link href="DBSite.css" type="text/css" rel="stylesheet">
+		<link href="assets/css/search.css" type="text/css" rel="stylesheet">
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.ui.js"></script>
+		<script src="assets/js/search.js"></script>
+		<style type="text/css">
+			.activelink {background-color: transparent; color: #FFFFFF; border-top: 3px solid white; padding: 2px 0 0 0; font-size: 100%; cursor: pointer; position: relative; width: 100px;}
+		</style>
+	</head>
+	<body>
+		<div class="navbar">
+			<a href="DBTC_home.html">
+				<div class="logo"><img src="logo.png" height="70%"></img></div>
+				<div class="name">Don Bosco Technical College</div>
+			</a>
+				<div class="search">
+					<div class="go">
+						<input type="submit" name="search" value="Search" id="go">
+					</div>
+					<div class="bar">
+						<input 
+							type="text" 
+							name="searchID" 
+							placeholder="Looking for something?" 
+							class="search-input" 
+							id="bar" 
+						">
+		
+					</div>
+				</div>
+			<div class="links">
+				<div class="dropdown">
+					<a href="DBTC_Home.html"><button class="dropbtn">Home</button></a>
+				</div>
+				<div class="dropdown">
+					<a href="DBTC_Admission.html"><button class="dropbtn">Admission</button></a>
+				</div>
+				<div class="dropdown">
+					<a href="DBTC_Programs-Offered.html"><button class="dropbtn">Programs</button></a>
+					<div class="dropdown-content">
+						<a href="DBTC_Programs-Offered_Archi.html">Architecture</a>
+						<a href="DBTC_Programs-Offered_IT.html">Information Technology</a>
+						<a href="DBTC_Programs-Offered_CS.html">Computer Science</a>
+						<a href="DBTC_Programs-Offered_CPE.html">Computer Engineering</a>
+						<a href="DBTC_Programs-Offered_ME.html">Mechanical Engineering</a>
+						<a href="DBTC_Programs-Offered_ECE.html">Electronics and Communications Engineering</a>
+						<a href="DBTC_Programs-Offered_Entrep.html">Entrepreneurship</a>
+						<a href="DBTC_Programs-Offered_ACT.html">Aircraft Maintenance Technology</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="DBTC_News-and-Events - page1.html"><button class="dropbtn">News</button></a>
+				</div>
+				<div class="dropdown">
+					<a href="DBTC_Gallery.html" class="activelink"><button class="dropbtn">Gallery</button></a>
+					<div class="dropdown-content">
+						<a href="DBTC_Gallery_School-Facilities.html">School Facilities</a>
+						<a href="DBTC_Gallery_Campus-Grounds.html">Campus Grounds</a>
+						<a href="DBTC_Gallery_Events.html">Events</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="DBTC_About-Us.html"><button class="dropbtn">About DBTC</button></a>
+					
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div id="header"><img src="Header_IMAGE/Header-image.png" id="head" width="100%"></img></div>
+			<div class="main2">
+			<h1>GALLERY</h1>
+				<div id="pics-row">
+					<div id="pics"><img src="Gallery_IMAGES/gal1.jpg" height="100%" width="100%" href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"></img><div id="centered"></div></div>
+					<div id="pics"><img src="Gallery_IMAGES/gal2.jpg" height="100%" width="100%" href="javascript:void(0)" onclick="document.getElementById('light2').style.display='block';document.getElementById('fade2').style.display='block'"></img><div id="centered"></div></div>
+					<div id="pics"><img src="Gallery_IMAGES/gal3.jpg" height="100%" width="100%" href="javascript:void(0)" onclick="document.getElementById('light3').style.display='block';document.getElementById('fade3').style.display='block'"></img><div id="centered"></div></div>
+					
+					<!-- pic1 -->
+					<div id="light" class="white_content2">	
+						<img id="myImg" src="Gallery_IMAGES/gal1.jpg"></img>
+						<div style="text-align:center; width:100%;color:white;"></div>
+					</div>
+					<div id="fade" class="black_overlay">
+						<span class="close" href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">&times;</span>
+					</div>
+					<!-- pic2 -->
+					<div id="light2" class="white_content2">	
+						<img id="myImg" src="Gallery_IMAGES/gal2.jpg"></img>
+						<div style="text-align:center; width:100%;color:white;"></div>
+					</div>
+					<div id="fade2" class="black_overlay">
+						<span class="close" href="javascript:void(0)" onclick="document.getElementById('light2').style.display='none';document.getElementById('fade2').style.display='none'">&times;</span>
+					</div>
+					<!-- pic3 -->
+					<div id="light3" class="white_content2">	
+						<img id="myImg" src="Gallery_IMAGES/gal3.jpg"></img>
+						<div style="text-align:center; width:100%;color:white;"></div>
+					</div>
+					<div id="fade3" class="black_overlay">
+						<span class="close" href="javascript:void(0)" onclick="document.getElementById('light3').style.display='none';document.getElementById('fade3').style.display='none'">&times;</span>
+					</div>
+				</div>
+				<div id="pics-row">
+					<div id="pics"><img src="Gallery_IMAGES/gal4.jpg" height="100%" width="100%" href="javascript:void(0)" onclick="document.getElementById('light4').style.display='block';document.getElementById('fade4').style.display='block'"></img><div id="centered"></div></div>
+					<div id="pics"><img src="Gallery_IMAGES/gal5.jpg" height="100%" width="100%" href="javascript:void(0)" onclick="document.getElementById('light5').style.display='block';document.getElementById('fade5').style.display='block'"></img><div id="centered"></div></div>
+					<div id="pics"><img src="Gallery_IMAGES/gal6.jpg" height="100%" width="100%" href="javascript:void(0)" onclick="document.getElementById('light6').style.display='block';document.getElementById('fade6').style.display='block'"></img><div id="centered"></div></div>
+					
+					<!-- pic4 -->
+					<div id="light4" class="white_content2">	
+						<img id="myImg" src="Gallery_IMAGES/gal4.jpg"></img>
+						<div style="text-align:center; width:100%;color:white;"></div>
+					</div>
+					<div id="fade4" class="black_overlay">
+						<span class="close" href="javascript:void(0)" onclick="document.getElementById('light4').style.display='none';document.getElementById('fade4').style.display='none'">&times;</span>
+					</div>
+					<!-- pic5 -->
+					<div id="light5" class="white_content2">	
+						<img id="myImg" src="Gallery_IMAGES/gal5.jpg"></img>
+						<div style="text-align:center; width:100%;color:white;"></div>
+					</div>
+					<div id="fade5" class="black_overlay">
+						<span class="close" href="javascript:void(0)" onclick="document.getElementById('light5').style.display='none';document.getElementById('fade5').style.display='none'">&times;</span>
+					</div>
+					<!-- pic6 -->
+					<div id="light6" class="white_content2">	
+						<img id="myImg" src="Gallery_IMAGES/gal6.jpg"></img>
+						<div style="text-align:center; width:100%;color:white;"></div>
+					</div>
+					<div id="fade6" class="black_overlay">
+						<span class="close" href="javascript:void(0)" onclick="document.getElementById('light6').style.display='none';document.getElementById('fade6').style.display='none'">&times;</span>
+					</div>
+				</div>
+				<div id="pics-row">
+					<div id="pics"><img src="Gallery_IMAGES/gal7.jpg" height="100%" width="100%" href="javascript:void(0)" onclick="document.getElementById('light7').style.display='block';document.getElementById('fade7').style.display='block'"></img><div id="centered"></div></div>
+					<div id="pics"><img src="Gallery_IMAGES/gal8.jpg" height="100%" width="100%" href="javascript:void(0)" onclick="document.getElementById('light8').style.display='block';document.getElementById('fade8').style.display='block'"></img><div id="centered"></div></div>
+					
+					<!-- pic7 -->
+					<div id="light7" class="white_content2">	
+						<img id="myImg" src="Gallery_IMAGES/gal7.jpg"></img>
+						<div style="text-align:center; width:100%;color:white;"></div>
+					</div>
+					<div id="fade7" class="black_overlay">
+						<span class="close" href="javascript:void(0)" onclick="document.getElementById('light7').style.display='none';document.getElementById('fade7').style.display='none'">&times;</span>
+					</div>
+					<!-- pic8 -->
+					<div id="light8" class="white_content2">	
+						<img id="myImg" src="Gallery_IMAGES/gal8.jpg"></img>
+						<div style="text-align:center; width:100%;color:white;"></div>
+					</div>
+					<div id="fade8" class="black_overlay">
+						<span class="close" href="javascript:void(0)" onclick="document.getElementById('light8').style.display='none';document.getElementById('fade8').style.display='none'">&times;</span>
+					</div>
+				</div>
+			</div>
+			<div class="terms">
+				<li class="foot"><a class="foot" href="#">Terms of Use</a></li>
+				<li class="foot"><a class="foot" href="#">Privacy Statement</a></li>
+				<li class="foot"><a class="foot" href="#">dbmanda.one-bosco.org</a></li>
+			</div>
+		</div>
+	</body>
+</html>
